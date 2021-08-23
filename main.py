@@ -2,7 +2,7 @@ import time
 
 def appstart():
     pomodoro = int(input("Enter 1 to start pomodoro: "))
-    t = 10
+    t = 25*60 #25 minutes
     if(pomodoro == 1):
         while t:
             mins = t // 60
@@ -16,7 +16,7 @@ def appstart():
 
 
 def breaktime():
-    t = 5
+    t = 5*60 #5 minutes breaktime
     while t:
         mins = t // 60
         secs = t % 60
