@@ -10,4 +10,4 @@ This application is created using python and tkinter for GUI.
 
 ![11](https://user-images.githubusercontent.com/61609681/131030459-56a1c901-64b0-4a4e-8506-925e237db18e.png)  ![image](https://user-images.githubusercontent.com/61609681/131030535-8f2d628d-72ff-40b5-894f-e2b9f7d46b57.png)
 
-Font used for the front page is [Quiapo Font made by Aaron Amar](https://www.behance.net/gallery/64253003/Quiapo-Free).
+Font used is [Quiapo Font made by Aaron Amar](https://www.behance.net/gallery/64253003/Quiapo-Free).
