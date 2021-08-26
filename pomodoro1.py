@@ -22,7 +22,7 @@ class Countdown(tk.Frame):
         start2.pack()
 
     def create_widgets(self):
-        self.bg = PhotoImage(file="kamatis/images/Tomato.png")
+        self.bg = PhotoImage(file="images/Tomato.png")
 
         # create canvas
         self.my_canvas1 = tk.Canvas(self, width=400, height=400)
@@ -74,7 +74,7 @@ class Countdown(tk.Frame):
         else:
             self._timer_on = False  # off the timer
             self.label["text"] = "You're done!"
-            ws.PlaySound('kamatis/storedoorchime.wav', ws.SND_FILENAME)
+            ws.PlaySound('storedoorchime.wav', ws.SND_FILENAME)
             # wav file from https://soundbible.com/1599-Store-Door-Chime.html
 
     def reset_button(self):
@@ -140,7 +140,7 @@ class StartApp(tk.Frame):
         countdown.pack()
 
     def create_widgets1(self1):
-        self1.bg1_ = PhotoImage(file="kamatis/images/StartApp.png")
+        self1.bg1_ = PhotoImage(file="images/StartApp.png")
 
         # Create a canvas
         self1.my_canvas = tk.Canvas(self1, width=400, height=400)
@@ -160,7 +160,7 @@ if __name__ == "__main__":
     root.geometry("400x400")
     root.resizable(0, 0)  # cant stretch it, no resize
     root.title("KAMATIS")
-    root.iconbitmap('kamatis/icon.ico')
+    root.iconbitmap('icon.ico')
 
     start1 = StartApp(root)  # create a variable start1
     start1.pack()
