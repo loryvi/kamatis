@@ -1,6 +1,6 @@
 # Kamatis
 
-/noun/
+/fruit or vegetable?/
 A tagalog word for tomato.
 
 What is Pomodoro?
